@@ -13,7 +13,7 @@ public class Player{
 		 return name;
 	 }
 	 public int makeBet() {
-		 if(chips > 1) {
+		 if(chips >= 1) {
 			 bet = 1;
 			 return bet;
 		 }
